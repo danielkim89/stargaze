@@ -2,6 +2,8 @@ module github.com/public-awesome/stargaze/v5
 
 go 1.18
 
+require github.com/patrickmn/go-cache v2.1.0+incompatible
+
 require (
 	github.com/CosmWasm/wasmd v0.26.0
 	github.com/CosmWasm/wasmvm v1.0.0-beta10
